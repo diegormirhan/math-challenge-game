@@ -11,7 +11,7 @@ def play(points: int) -> None:
     calc: Calculate = Calculate(df)
 
     print('Informe o resultado para a seguinte operação: ')
-    calc.operation()
+    calc.show_operation()
     result: int = int(input())
 
     if calc.check_result(result):
